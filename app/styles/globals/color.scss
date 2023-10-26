@@ -1,0 +1,45 @@
+
+// Primary
+
+$red:hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+//Neutral
+
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-Blue: hsl(229, 6%, 66%);
+$very-Light-Gray: hsl(0, 0%, 98%);
+
+body{
+    background-color: $very-Light-Gray;
+}
+h1,h3{
+    color:$very-dark-blue;
+}
+
+p{
+    color: $very-dark-blue;
+}
+
+
+.cards{
+    background-color: white;
+
+    section:nth-child(1){
+        border-top: 3px $cyan solid;
+    }
+    
+    section:nth-child(2){
+        border-top: 3px $red solid;
+    }
+    
+    section:nth-child(3){
+        border-top: 3px $orange solid;
+    }
+    
+    section:nth-child(4){
+        border-top: 3px $blue solid;
+    }
+}
